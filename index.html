@@ -1,0 +1,381 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EAS Online Trainings</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <!-- BOOTSTRAP LINKS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="Training Logo.png" alt="Website Logo" style="width: 150px;">
+        </div>
+        <div class="menu-icon">☰</div>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <div class="mx-2">
+            <button class="btn btn-light" data-bs-toggle="modal"
+                data-bs-target="#loginModal"><strong>Login</strong></button>
+            <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#signupModal"><strong>Sign
+                    Up</strong></button>
+        </div>
+    </div>
+    <!-- MODALS -->
+    <!-- LOGIN MODAL -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="loginModalLabel">Login to EAS Online Trainings</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">We'll never share
+                            your
+                            email with anyone else.
+                        </div>
+                        <label for="inputPassword5" class="form-label">Password</label>
+                        <input type="password" id="inputPassword5" class="form-control"
+                            aria-describedby="passwordHelpBlock">
+                        <div id="passwordHelpBlock" class="form-text">
+
+                        </div>
+                        <button type="button" class="btn btn-primary">Login</button>
+                </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SIGN UP MODALS -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="signupModalLabel">Sign Up to EAS Online Trainings</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="name" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">We'll never share
+                            your email with anyone else.
+                        </div>
+                        <label for="inputPassword5" class="form-label">Password</label>
+                        <input type="password" id="inputPassword5" class="form-control"
+                            aria-describedby="passwordHelpBlock">
+                        <div id="passwordHelpBlock" class="form-text">
+                        </div>
+                        <label for="inputPassword5" class="form-label">Confirm your Password</label>
+                        <input type="password" id="inputPassword5" class="form-control"
+                            aria-describedby="passwordHelpBlock">
+                        <div id="passwordHelpBlock" class="form-text">
+                        </div>
+
+                        <button type="button" class="btn btn-primary">Create Account</button>
+                </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- MODALS END -->
+
+    <!-- HERO SECTION  -->
+    <div class="hero-section">
+        <video src="Hero Section Animation.mp4" autoplay loop muted></video>
+        <div class="text-content text-3d">
+            <p>Explore courses, enhance your skills, and achieve your goals with our expert-designed programs.</p>
+            <button><a href="programs.html">LEARN MORE</a></button>
+        </div>
+    </div>
+    <!-- TRAIN TRANSITION EFFECT -->
+    <div class="train-container">
+        <div class="train">
+            <img src="Assets/HTML Logo.jpg" alt="HTML">
+            <img src="Assets/CSS Logo.jpg" alt="CSS">
+            <img src="Assets/JavaScript Logo.png" alt="JAVASCRIPT">
+            <img src="Assets/C Logo.jpg" alt="C">
+            <img src="Assets/C-sharp Logo.png" alt="C++">
+            <img src="Assets/MS Excel Logo.svg" alt="MS EXCEL">
+            <img src="Assets/Python Logo.jpg" alt="PYTHON">
+            <img src="Assets/Java Logo.png" alt="JAVA">
+            <img src="Assets/WordPress Logo.png" alt="WORDPRESS">
+            <img src="Assets/PhP Logo.png" alt="PHP">
+            <img src="Assets/Sql Logo.webp" alt="SQL">
+            <img src="Assets/Perl Logo.png" alt="PERL">
+            <img src="Assets/Node JS Logo.jpg" alt="NODE JS">
+            <img src="Assets/Linux Logo.jpg" alt="LINUX">
+            <img src="Assets/Windows Logo.png" alt="WINDOWS">
+            <img src="Assets/Visual Basic Logo.png" alt="VISUAL BASIC">
+            <img src="Assets/Ruby Logo.jpg" alt="RUBY">
+            <img src="Assets/ANDROID Logo.png" alt="ANDROID">
+            <!-- Hello -->
+            <img src="Assets/Windows Logo.png" alt="WINDOWS">
+            <img src="Assets/Visual Basic Logo.png" alt="VISUAL BASIC">
+            <img src="Assets/Ruby Logo.jpg" alt="RUBY">
+            <img src="Assets/ANDROID Logo.png" alt="ANDROID">
+            <!-- Hlo -->
+        </div>
+    </div>
+    <!-- TRAIN TRANSITION EFFECT ENDS -->
+    <!-- ABOUT US -->
+    <section class="about-us">
+        <div class="container">
+
+            <div class="about-content">
+                <h2>ABOUT US</h2>
+                <p>
+                    Welcome to <strong>EAS Online Trainings</strong>, your partner in learning and growth. We’re
+                    dedicated to bridging the gap between traditional education and real-world skills, empowering
+                    students and professionals to succeed in today’s dynamic world.
+                </p>
+                <p>
+                    Our platform offers expert-led courses, interactive sessions, and hands-on learning to make
+                    education practical, engaging, and impactful. At <strong>EAS Online Trainings</strong>, we believe
+                    learning should be accessible, exciting, and tailored to your goals.
+                </p>
+                <p>
+                    Join us on this journey to unlock your potential and prepare for a brighter future. Let’s learn,
+                    grow, and succeed together!
+                </p>
+                <button><a href="about_us.html">More</a></button>
+            </div>
+            <div class="about-image">
+                <img src="About us image.jpg" alt="About Us Image">
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT US ENDS -->
+    <!-- WHY CHOOSE US? -->
+    <section class="why-choose-us-alt">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Expert-Led Learning</h3>
+                    <p>Learn from industry professionals with real-world experience and insights.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Industrial Projects</h3>
+                    <p>Practical, project-based learning to master in-demand skills effectively.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Live Interactive Sessions</h3>
+                    <p>Learn at your own pace, anytime, anywhere, with an intuitive platform.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Multiple Certifications</h3>
+                    <p>Earn certifications that validate your skills and enhance your career.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WHY CHOOSE US ENDS -->
+
+    <!-- PROGRAMS -->
+    <section class="services-scroll">
+        <div class="container">
+            <h2>PROGRAMS THAT WE OFFER</h2>
+            <div class="scrollable-cards" id="scrollable-container">
+                <div class="service-card">
+                    <img src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4=" alt="Artificial Intelligence">
+                    <h3>Artificial Intelligence</h3>
+                    <p>Unlock the Power of Artificial Intelligence—Learn, Innovate, and Lead the World Toward a Smarter
+                        Tomorrow!</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://iticollege.edu/wp-content/uploads/2024/07/Machine-Learning-Basics.jpg" alt="Machine Learning">
+                    <h3>Machine Learning</h3>
+                    <p>Dive into Machine Learning—Empower Innovation, Solve Complex Problems, and Build a Smarter Future
+                        Today!</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://t4.ftcdn.net/jpg/02/45/63/69/360_F_245636933_kY23ohGptK5t6n8wGSXIgLgVXWeHJRct.jpg" alt="CyberSecurity">
+                    <h3>CyberSecurity</h3>
+                    <p>Secure the Future with Cybersecurity—Protect Data, Defend Systems, and Build a Safer Digital
+                        World!
+                    </p>
+                </div>
+                <div class="service-card">
+                    <img src="https://t3.ftcdn.net/jpg/02/14/87/96/360_F_214879686_R3HFJlk6WLr1kcdvy6Q9rtNASKN0BZBS.jpg" alt="Web Development">
+                    <h3>Web Development</h3>
+                    <p>Craft the Web, Shape the Future—Learn Web Development to Build Engaging, Dynamic, and Impactful Digital Experiences!</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://s44783.pcdn.co/in/wp-content/uploads/sites/3/2024/08/benefits-of-cloud-computing-1024x536.png" alt="Cloud Computing">
+                    <h3>Cloud Computing</h3>
+                    <p>Elevate Possibilities with Cloud Computing—Transform Businesses, Drive Innovation, and Harness the Power of the Cloud!</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://miro.medium.com/v2/resize:fit:803/1*E4lFl0-xX1L5uZXIyBQdsQ.jpeg" alt="Networking">
+                    <h3>Networking</h3>
+                    <p>Connect the World with Networking—Build Bridges, Enable Communication, and Power the Digital Revolution!</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://ctisupply.vn/wp-content/uploads/2020/07/automationProgrammer.jpg" alt="Programming & Automation">
+                    <h3>Programming & Automation</h3>
+                    <p>Code the Future with Programming and Automation—Streamline Processes, Innovate Solutions, and Drive Efficiency Everywhere!</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://www.atulhost.com/wp-content/uploads/2024/01/database.jpg" alt="Database Management">
+                    <h3>Database Management</h3>
+                    <p>Master Database Management—Organize Data, Unlock Insights, and Drive Smarter Decisions for a Digital World!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROGRAMS END -->
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Learners Say?</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/19/16/18/ai-generated-8583699_1280.jpg" alt="User 1">
+                    <p>"The instructors are knowledgeable and approachable. I’ve gained so much confidence in my skills!"</p>
+                    <h3>Priya Sharma</h3>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://cdn.pixabay.com/photo/2024/03/31/05/00/ai-generated-8665996_960_720.jpg" alt="User 2">
+                    <p>"Thanks to this platform, I landed my dream job! The courses were comprehensive and easy to follow."</p>
+                    <h3>Rahul Mehta</h3>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://static.vecteezy.com/system/resources/previews/039/334/804/large_2x/ai-generated-indian-female-student-free-photo.jpg" alt="User 3">
+                    <p>"I love how accessible and innovative the teaching methods are. The support team is fantastic too!"</p>
+                    <h3>Anita Roy</h3>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/028/287/529/small_2x/indian-man-with-crossed-arms-wearing-a-formal-shirt-ai-generated-photo.jpg" alt="User 3">
+                    <p>"The blend of live sessions and recorded material is perfect for my busy schedule. Highly recommended!"</p>
+                    <h3>Karthik Rao</h3>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://i.pinimg.com/736x/32/af/e0/32afe0e9d8c34cebe2e476f05371a26c.jpg" alt="User 3">
+                    <p>"The hands-on projects and real-world examples make learning here incredibly effective."</p>
+                    <h3>Sneha Gupta</h3>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://ai-previews.123rf.com/ai-txt2img/600nwm/e9782e80-42f6-456e-8415-cab4b9537ff6.jpg" alt="User 3">
+                    <p>"As someone new to tech, I was nervous about starting. This platform made it so easy and fun!"</p>
+                    <h3>Ramesh Kumar</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS END -->
+
+    <!-- NEWSLETTER SUBSCRIPTION -->
+    <section class="newsletter">
+        <div class="newsletter-card">
+            <div class="newsletter-content">
+                <h2>Join Our Community!</h2>
+                <p>Get the latest updates on courses, events, and exclusive offers delivered to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit">Subscribe Now</button>
+                </form>
+            </div>
+            <div class="newsletter-image">
+                <img src="https://3.imimg.com/data3/IF/GK/MY-4282300/e-learning-250x250.jpeg" alt="Newsletter">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- NEWSLETTER SUBSCRIPTION END -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <!-- About Section -->
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p>Empowering learners with quality courses, expert mentorship, and career-oriented guidance.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about_us.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info -->
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Email: support@easonlinetrainings.com</p>
+                    <p>Phone: +91 98765 43210</p>
+                    <p>Location: Dehradun, India</p>
+                </div>
+                <!-- Social Media -->
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EAS Online Trainings. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
